@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #1e1b4b 0%, #1e293b 50%, #0f172a 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px black;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.comic-shadow {
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
